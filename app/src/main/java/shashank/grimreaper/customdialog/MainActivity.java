@@ -31,4 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,"Declined",Toast.LENGTH_LONG).show();
         alert.cancel();
     }
+    public void cancel(View v){
+        Log.d("Cancel Dialog", "no changes made");
+    }
 }
