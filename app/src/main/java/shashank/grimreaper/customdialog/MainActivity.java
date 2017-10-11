@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+    // Our custom dialog for provider
     AlertDialog.Builder builder;
     AlertDialog alert;
     @Override
